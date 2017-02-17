@@ -33,9 +33,17 @@ a img {
 	border: 0;
 }
 
+
 /* 1.1 Layout add-ons */
 
 .bullet { padding-left: 5px; padding-right: 5px; }
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
 
 .cool {
 	font-size: 0.6em;
@@ -70,7 +78,7 @@ a img {
 	text-align: right;
 }
 
-.centered {
+.  {
 	margin-left: auto;
 	margin-right: auto;
 	float: none;
@@ -92,22 +100,32 @@ a img {
 .section-alt { background-color: #eee; }
 
 .section-title {
-	margin: 0 0 15px 0;
+/*	margin: 0 0 15px 0;
 	padding: 0;
 	font-size: 2.250em;
 	font-weight: 300;
-	color: #0f1025;
 	text-transform: uppercase;
 	display: block;
-	text-align: center;
 	letter-spacing: 0.1em;
+*/
+
+	font-family: 'Open Sans', sans-serif;
+	font-size:30px;
+	line-height:38px;
+	padding-bottom:0px;
+	font-weight:50px;
+	color:#ff675f;
+	text-transform:uppercase;
+	text-align: center;
+	display: block;
+	margin:0px;
 }
 
 .section-title .cool {
 	line-height: 1.7em;
 }
 
-.section-content { margin-top: 30px; }
+.section-content { margin-top: 20px; }
 
 .section h3,
 .section-alt h3 {
@@ -363,64 +381,87 @@ input.error, textarea.error {
 
 .job-project { text-align: center; }
 
-/* 6. Education */
-
-#education .line { background-color: #f24759; }
-#education .bullet { color: #f24759; }
-#education a { color: #f24759; }
-
-.school h3 {
-	margin: 0 0 10px 0;
-	text-align: center;
-}
-
-.school-meta {
-	display: block;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 0.15em;
-}
-
 /* 7. Portfolio */
-
-#portfolio .line { background-color: #f08b65; }
-#portfolio .bullet { color: #f08b65; }
-#portfolio a { color: #f08b65; }
-
-.project {
-	opacity: 0;
-    display: none;
-	text-align: center;
+.portfolio{
+	background:#fff;
+}
+.portfolio .container{
+	padding-top:85px ;
+	padding-bottom:90px ;
 }
 
-.filters {
-	display: block;
-	margin: 0 0 15px 0;
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
+.portfolio h2{
+	color:#ff675f;
+}
+.portfolio p{
+	color:#84868d;
+	/*font-size:13px;*/
+	line-height:18px;
+}
+.portfolio .heading p{
+	padding-bottom:41px;
 }
 
-.filters li {
-	color: #000000;
-	display: inline-block;
-	cursor: pointer;
-	text-transform: uppercase;
-	letter-spacing: 0.15em;
+.portfolio h4{
+	font-weight:700;
 }
 
-.filters li:hover, .filters li.active { color: #f08b65; }
-
-.filters li:before {
-	content: "\2022";
-	padding: 0 10px;
-	color: #f08b65;
+.workYear{
+	font-size:17px;
+	color:#fff;
+	background:#ff675f;
+	text-align:center;
+	width:120px;
+	height:120px;
+	padding:40px 0 40px 0;
+	
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
 }
 
-.filters li:first-child:before {
-	content: "";
-	padding: 0;
+
+.exCon{
+	width:auto;
+	background:white;
+	border-bottom:solid 4px #ff675f;
+	padding:22px 47px 6px 47px;
+	margin-left:15px;
+	text-align:left;
 }
+
+.exCon p{
+	color:#84868d;
+	line-height:21px;
+}
+
+.exCon h5{
+	color:#474d5d;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	line-height:24px;
+	padding-bottom:6px;
+	font-weight:400;
+	margin:0px;
+}
+
+.exCon h4{
+	color:#474d5d;
+	padding-bottom:3px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:19px;
+	line-height:24px;
+	font-weight:600;
+	margin:0px;
+}
+
+.workDetails .rightArea{
+	border-left: solid 1px #eaeaea;
+	padding-bottom:47px;
+}
+.workDetails:last-child .rightArea{
+	padding-bottom:0px;
+}
+
 
 /* 8. Contact */
 
@@ -429,7 +470,7 @@ input.error, textarea.error {
 }
 .contactDetails .container{
 	padding-top:60px;
-	padding-bottom:60px;
+	padding-bottom:30px;
 }
 
 .contactDetails h4{
