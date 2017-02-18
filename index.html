@@ -41,7 +41,7 @@
 						<div class="col-full"><h4>Data Scientist | Machine Learning Engineer</h4></div>
 					</div>
 				</div>
-			<div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 589px; width: 1349px; z-index: -999998; position: absolute;"><img src="./static/img/back.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1349px; height: 758.813px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -84.9063px;"></div></div>
+			<div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 589px; width: 1349px; z-index: -999998; position: absolute;"><img  style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1349px; height: 758.813px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -84.9063px;"></div></div>
 			<div id="nav-sticky-wrapper" class="sticky-wrapper" style="height: 60px;">
 			<nav id="nav" style="z-index: 100;">
 				<ul class="clearfix">
@@ -59,7 +59,7 @@
 		
 <!-- ABOUT ME -->
 
-		<section id="aboutme" class="section">
+		<section id="aboutme" class="section" style="margin-bottom: 90px">
 			<div class="container">
 				<div class="row">
 					<div class="col-full">
@@ -69,26 +69,23 @@
 
 				<div class="row section-content">
 					<div class="col-1-3" style="text-align: center;">
-						<img class ='img-circle' alt="This is me!"  style="height: 250px;" src="./static/img/self_photo.JPG">
+						<img class ='img-circle' alt="This is me!"  style="height: 300px;" src="./static/img/self_photo.JPG">
 					</div>
 					<div class="col-1-3">
 						<h4>Hey! Thanks for dropping by</h4>
 
 						<p>I am Harshit, a final year undergraduate from IIT Kharagpur. I am fascinated by the frontiers of Computer Science and specially Machine Learning </p>
 
-						<p>Need something built or simply want to have chat? Reach out to me on social media or send me an <a href="http://www.kaiwa-projects.com/#contact">email</a>.</p>
-						<ul class="social-links clearfix">
-							<li><a href="https://www.twitter.com/Ka1wa" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.facebook.com/ka1wa" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://www.github.com/ka1wa" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/kaiwa" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
+						<p>Need something built or simply want to have chat? Reach out to me on social media or send me an 
+						<div style="margin-top: 120px"><a class="ghost-button-semi-transparent" href="./static/CV.pdf" download="Resume-Harshit" target="_blank">Download Resume</a>
+						</div>
 					</div>
 					<div class="col-1-3">
 						<h4>My personal interests</h4>
 						
 						<p>When I am not coding my next project, I enjoy spending my time doing any of the following:</p><ul><li>I love <strong>learning Korean</strong>;</li><li>I am watching my favorite <strong>eSports</strong> games;</li><li>I am <strong>brainstorming</strong> at conferences around the world;</li><li>And I am <strong>meeting more people</strong> and creating new opportunities.</li></ul>					
 					</div>
+
 				</div>
 			</div>
 		</section>
@@ -199,22 +196,24 @@
     <div class="container">
     <div class="row">
 		<div class="col-full">
-			<h2 class="section-title">Portfolio</h2>
+			<h2 class="section-title">Projects</h2>
 		</div>
 	</div>
     
-      <div class="row workDetails">
+      <div class="row workDetails" style="margin-top: 50px">
         <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
           <div class="workYear">Nov, 2015<br>
             Present</div>
         </div>
         <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
           <div class="arrowpart"></div>
-          <div class="exCon">
-            <h4>ShadowFax Technologies</h4>
-            <h5>Senior Software Developer</h5>
-            <p>Shadowfax is a product based company providing on demand delivery service. As of now, I am working on Tech backend developing APIs that meets requirements and helps in achieving complete automation of whole system.</p>
+          <a href="https://github.com/harshit158" target="_blank">
+          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+            <h4>Texlens - Text Summarizer</h4>
+            <h5>Tools: Python, Sklearn, AWS</h5>
+            <p>• Developed Graph based Extractive Summarization tool based on the Eigenvector centrality in graph representation of sentences <br>• Feature matrix using Tf-Isf values was used to create Adjacency matrix with Inter-sentence cosine distance as the similarity metric <br>• Deployed Weighted PageRank algorithm to rank sentences where weights of in-out edges are cosine similarity values.</p>
           </div>
+          </a>
         </div>
       </div>
       <div class="row workDetails">
@@ -224,11 +223,13 @@
         </div>
         <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
           <div class="arrowpart"></div>
-          <div class="exCon">
-            <h4>DudeGenie (Acquired by Yatra.com)</h4>
-            <h5>Senior Software Engineer</h5>
-            <p>DudeGenie (Discovery and Personal Assistant) - A Platform for localised discovery, curated information and chat based assistance. My responsibilities included planning and builiding the entire chat system backend taking necessary technological decisions. Tech stack included Python, Django, Pubnub etc. The company got acquired by Yatra.com.</p>
+          <a href="https://github.com/harshit158" target="_blank">
+          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+            <h4>Reverse Image Search Engine using OpenCV</h4>
+            <h5>Tools: Python, OpenCV</h5>
+            <p>• Developed Content Based Image Retrieval (CBIR) system by using pixel intensities as the primary feature to quantify image content<br>• Histograms in HSV colour space(with 8 bins/channel) were developed in OpenCV to generate Feature vectors of training Images<br>• Feature vectors were mapped to 8*8*8=512 dimensional space; Implemented Chi-squared similarity as the final ranking algorithm</p>
           </div>
+          </a>
         </div>
       </div>
       <div class="row workDetails">
@@ -238,11 +239,13 @@
         </div>
         <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
           <div class="arrowpart"></div>
-          <div class="exCon">
-            <h4>uFaber</h4>
-            <h5>Senior Software Engineer</h5>
-            <p>uFaber, is an E-Learning product based startup. My responsibilities were the backend development of entire product life cycle from strategic planning to tactical activities. The product backend was built in Python, Django and REST framework, with frontend technologies chosen as AngularJS.</p>
+          <a href="https://github.com/harshit158" target="_blank">
+          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+            <h4>Reinforcement based Autonomous navigation</h4>
+            <h5>Tools: Python, Keras, AWS</h5>
+            <p>•Implemented Reinforcement based learning technique for teaching a virtual car in a 2D game (developed in PyGame) to avoid collision<br>• Raw sensor data represents each state in the game; The input data decides the obstacle type(0,1,2) based on their pixel values<br>• Predicted Q-values decide the action to be taken followed by reward or punishment as per the new state achieved</p>
           </div>
+          </a>
         </div>
       </div>
       <div class="row workDetails">
@@ -252,11 +255,13 @@
         </div>
         <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
           <div class="arrowpart"></div>
-          <div class="exCon">
-            <h4>Codeyssus</h4>
-            <h5>Software Engineer</h5>
-            <p>A service based startup focused on building web applications and deploy them on cloud. I have worked on over 6 projects at Codeyssus managing projects full development cycle involving technological decisions. Technology stack used was Python and Django.</p>
+          <a href="https://github.com/harshit158" target="_blank">
+          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+            <h4>Mortality Predictor (Competition - Xerox Research Innovation Challenge)</h4>
+            <h5>Tools: Pandas, IPython, Sklearn</h5>
+            <p>• Developed a Binary Classification model to predict risk of death in patients admitted to ICU using online ML techniques<br>• Analysed 31(Vitals & Labs) time series variables; Engineered rolling Average, Min, Max, timestamp frequencies as additional features<br>• Implemented stacking techniques to predict the final output with stacking of Random Forest, KNN and Logistic classifiers</p>
           </div>
+          </a>
         </div>
       </div>      
     </div>
@@ -324,8 +329,8 @@
 				<p>+91-9126140688</p>	
 				<p>
 					<a href="mailto:harshit158@gmail.com">harshit158@gmail.com</a>
-				</p>
-				<p>
+				
+					<i class="fa fa-envelope fa-2x"</i>
 					<a href="www.harsh_iitkgp.github.io">www.harsh_iitkgp.github.io</a>
 				</p>			
 

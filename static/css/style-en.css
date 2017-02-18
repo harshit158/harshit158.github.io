@@ -139,7 +139,7 @@ a img {
 .section-alt h4 {
 	font-size: 1em;
 	color: #222;
-	text-transform: uppercase;
+	text-transform: camelcase;
 	letter-spacing: 0.1em;
 }
 
@@ -223,6 +223,33 @@ input.error, textarea.error {
 	font-size: 1.125em;
 }
 
+.ghost-button-semi-transparent {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+
+
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+  color: #de1d13;
+  background-color: white; /* fallback */
+  /*background-color: rgba(253, 21, 21, 0.3);*/
+  border-color: #de1d13; /* fallback */
+  /*border-color: rgba(255, 255, 255, 0.4);*/
+  transition: background-color 0.3s ease-in,
+  				color 0.2s ease-in,
+              border-color 0.2s ease-in;
+}
+
 /* 2. Intro */
 
 #intro {
@@ -280,7 +307,7 @@ input.error, textarea.error {
 
 #nav ul li a {
 	display: block;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	letter-spacing: 0.1em;
 	color: #5b9bbc;
 	text-decoration: none;
@@ -452,6 +479,10 @@ input.error, textarea.error {
 	line-height:24px;
 	font-weight:600;
 	margin:0px;
+}
+
+.workDetails  a:hover, .workDetails a:visited {
+    text-decoration:none;
 }
 
 .workDetails .rightArea{
