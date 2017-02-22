@@ -371,11 +371,12 @@ input.error, textarea.error {
 
 #skills .line { background-color: #f08b65; }
 
-.skill { text-align: center; }
+.skill { text-align: center; 
+		 width: 25%;}
 .skill-pie {
 	width: 100%;
 	margin: 0 auto;
-	font-size: 14pt;
+	font-size: 12pt;
 	font-weight: 300;
 }
 .easyPieChart canvas { margin: 0 auto; }
