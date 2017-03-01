@@ -8,11 +8,11 @@ Author URLs:
 */
 
 /* 1. General */
-
-html, body { font-family: 'Open Sans', sans-serif; height: 100%; }
+html, body { font-family: 'Amaranth', sans-serif;height: 100%;}
+/*html, body { font-family: 'Open Sans', sans-serif; height: 100%; }*/
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	margin: 0 auto;
 	background-color: #fff;
 	color: #333;
@@ -109,11 +109,11 @@ a img {
 	letter-spacing: 0.1em;
 */
 
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	font-size:30px;
 	line-height:38px;
 	padding-bottom:0px;
-	font-weight:50px;
+	font-weight:25px;
 	color:#f72c21;
 	text-transform:uppercase;
 	text-align: center;
@@ -125,7 +125,8 @@ a img {
 	line-height: 1.7em;
 }
 
-.section-content { margin-top: 20px; }
+.section-content { margin-top: 20px;
+font-family: 'Amaranth', sans-serif; }
 
 .section h3,
 .section-alt h3 {
@@ -511,7 +512,7 @@ input.error, textarea.error {
 
 .exCon h5{
 	color:#474d5d;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	font-size:16px;
 	line-height:24px;
 	padding-bottom:6px;
@@ -522,7 +523,7 @@ input.error, textarea.error {
 .exCon h4{
 	color:#474d5d;
 	padding-bottom:3px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	font-size:19px;
 	line-height:24px;
 	font-weight:600;
@@ -576,7 +577,7 @@ input.error, textarea.error {
 
 
 h4{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	font-size:19px;
 	line-height:24px;
 	padding-bottom:6px;
