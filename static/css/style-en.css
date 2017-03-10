@@ -250,13 +250,15 @@ input.error, textarea.error {
   transition: background-color 0.3s ease-in,
   				color 0.2s ease-in,
               border-color 0.2s ease-in,
-              text-decoration: none;
+              
 }
 
-
-.ghost-button-semi-transparent:visited {
-	text-decoration: none;
+.ghost-button-semi-transparent:focus{
+	color: black;
+  	border-color: black;
+  	text-decoration: none;
 }
+
 
 /* 2. Intro */
 
@@ -264,7 +266,7 @@ input.error, textarea.error {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	background-color: #0d2c5a;
+	background-color: rgba(13, 44, 90, 0);
 	color: #fff;
 }
 
@@ -294,7 +296,10 @@ input.error, textarea.error {
 }
 
 #nav-sticky-wrapper.is-sticky #nav {
-	background-color: #0d2c5a;
+	background-color: #242f3e;
+	position: fixed;
+	top: 0px
+	
 }
 
 #nav ul {
@@ -317,7 +322,7 @@ input.error, textarea.error {
 	display: block;
 	font-size: 1.2em;
 	letter-spacing: 0.1em;
-	color: #5b9bbc;
+	color: #909090;
 	text-decoration: none;
 }
 
@@ -463,6 +468,25 @@ input.error, textarea.error {
 	color: #f72c21;
 }
 
+.left-pane {
+	width: 20%;
+	float: left;
+}
+
+.exCon .left-pane p{
+	color: #d64740;
+
+}
+
+.right-pane {
+	width: 80%;
+	border-left: 2px solid #ff675f;
+	display: inline-block;
+	padding-left: 30px; 
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+
 .tool_images{
 	height: 100%;
 	display: inline-block;
@@ -543,10 +567,34 @@ input.error, textarea.error {
 }
 
 
+.ghost-button-border-color {
+  display: inline-block;
+  width: 150px;
+  padding: 8px;
+  color: #d64740;
+  border: 1px solid #d64740;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.2 ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+  color: black;
+  border-color: black;
+  transition: border-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+
+.ghost-button-border-color:focus{
+	color: #d64740;
+  	border-color: #d64740;
+}
 /* 8. Contact */
 
 .contactDetails{
-	background:#0d2c5a;
+	background:white;
 }
 .contactDetails .container{
 	padding-top:60px;
@@ -586,12 +634,12 @@ h4{
 }
 
 #contact {
-	background-color: #0d2c5a;
+	background-color: #ffffff;
 	min-height: 80%;
 	color: #fff;
 }
 
-#contact h2, #contact h3, #contact h4 { color: #fff; }
+#contact h2, #contact h3, #contact h4 { color: #f72c21; }
 
 #contact .line { background-color: #5b9bbc; }
 #contact .bullet { color: #5b9bbc; }
