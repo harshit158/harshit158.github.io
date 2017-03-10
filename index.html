@@ -739,7 +739,17 @@
 			     $('#texlens_p').slideToggle('fast');
 			});
 
-			$("#chatbot").click(function(e) {
+			// $("#chatbot").click(function(e) {
+			// 	e.preventDefault();
+		 //      	$("#chatbot_p").load("chatbot.html"); 
+
+
+			// 	if(e.target.id == "github_link" || e.target.id == "deploy_link")
+   //        		return;
+	  //    	    $('#chatbot_p').slideToggle('fast');
+			// });
+
+			 $(document).on("click","#chatbot", function (e) {
 				e.preventDefault();
 		      	$("#chatbot_p").load("chatbot.html"); 
 				
