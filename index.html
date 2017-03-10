@@ -725,11 +725,11 @@
 			ga('send', 'pageview');
 		</script>
 
-		<script> 
+		<!-- <script> 
 		    $(function(){
 		      $("#chatbot_p").load("chatbot.html"); 
 		    });
-	    </script> 
+	    </script> --> 
 
 		<script>
 
@@ -741,6 +741,8 @@
 
 			$("#chatbot").click(function(e) {
 				e.preventDefault();
+		      	$("#chatbot_p").load("chatbot.html"); 
+				
 
 				if(e.target.id == "github_link" || e.target.id == "deploy_link")
           		return;
