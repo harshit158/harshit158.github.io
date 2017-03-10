@@ -73,7 +73,7 @@
 				<div class="row">
 					<div class="col-full">
 						<h2 class="section-title">About me</h2>
-						<p style="text-align: center;">Designer by chance | Programmer by passion</p>
+						<p style="text-align: center;">Designer by chance | Programmer by choice</p>
 					</div>
 				</div>
 
@@ -300,12 +300,12 @@
         <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
           <!-- <div class="workYear">Nov, 2015<br>
             Present</div> -->
-          <div><img class ='img-circle' alt="This is me!"  src="./static/img/sparreo.png"></div>
+          <div ><img class ='img-circle' alt="This is me!"  src="./static/img/sparreo.png"></div>
         </div>
         <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
           <div class="arrowpart"></div>
           <a id="deco" href="#">
-          <div id="chatbot" class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+          <div id="chatbot" class="exCon">
             
             <h4>Sparreo</h4>
             <h5>Messenger Chat Bot <span style="font-size: 12px">( Winner , GES Hackathon - IIT Kharagpur )</span></h5>
@@ -338,19 +338,36 @@
 	            	<div class="left-pane">
 	            		<p>Description :</p>
 						<p>Summary:</p>
-						<p>Time:</p>
+						<p>Time: <span style="color: #5d5c5c;">  Feb - Mar 2017</span></p>
 						<p>Tech stack:</p>
 						<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" " target="_blank">View on Github</a>
 						</div>
-						<div style="width: 20%; margin-top: 20px"><a id="deploy_link" class="ghost-button-border-color" href="https://drive.google.com/open?id=0B50zmdCOXwriM3NQNzQ3VG9ZUkk" " target="_blank">Deployment Link</a>
+						<div style="width: 20%; margin-top: 20px"><a id="deploy_link" class="ghost-button-border-color" href="#" " target="_blank">Deployment Link</a>
 						</div>
 	            	</div>
 
-
+					<a href="#">
 	            	<div class="right-pane" >
-	            		<p>Hi lknf</p>
-	            		<p>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	            	</div>
+	            		<p>There are three main parts of the project</p>
+	            		<p><B>1. Chat Bot (client side)</B><br>
+	            		The chatbot is a javascript based application developed and hosted on Gupshup platform and published on Messenger.
+	            		The messages are parsed using Message handlers provided by Gupshup platform and processed primarily by chatbot itself but mainly by the NodeJs server running in the backend. Various API endpoints are developed in NodeJs which provides a way for the chatbot to process complex data as well as interact with the database.
+	            		</p><br>
+
+	            		<div style="display: inline-block; width: 33%"><img src="./static/img/sparreo1.png" height="300px"></div>
+	            		<div style="display: inline-block;width: 33%; "><img src="./static/img/sparreo2.png" height="300px"></div>
+	            		<div style="float:right; display: inline-block;width: 33%"><img src="./static/img/sparreo3.png" height="300px"></div>
+
+	            		<p><br><B>2. NodeJs (backend)</B><br>
+	            		This does the heavy-lifting for the chatbot by providing necessary API endpoints. Acting as a medium between the chatbot and the database, it also uses third-party geo-mapping and Google Map APIs to process the acquired data from user and accordingly store on the database.The NodeJs server is hosted on Heroku.
+	            		</p>
+
+	            		<p><br><B>3. Firebase (database)</B><br>
+	            		Owing to its flexibility of use and more efficient data processing , Firebase was chosen as the database for the project. Storing data in terms of nodes (usp of Firebase), made it easier to store as well as fetch data for each of the submitted lost  or found reports by the users.<br>
+	            		
+	            		</p>
+	            		
+	            	</div></a>
 
 	            </div>
 
@@ -365,18 +382,16 @@
 
       <div class="row workDetails" style="margin-top: 50px">
         <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-          <!-- <div class="workYear">Nov, 2015<br>
-            Present</div> -->
-            <div><img width="150%" height="170px" class ='img-circle' alt="This is me!"  src="./static/img/texlens.jpg"></div>
+        <div><img width="150%" height="170px" class ='img-circle' alt="This is me!"  src="./static/img/ocr.png"></div>
         </div>
         <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
           <div class="arrowpart"></div>
           <a id="deco" href="#">
-          <div id="texlens" class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+          <div id="ocr" class="exCon">
             
-            <h4>Captchas decoded</h4>
+            <h4>Captcha decoder</h4>
             <h5>OCR system pipeline</h5>
-            <p id="texlens_p" >Implemented complete machine learning pipeline for developing an OCR system to decode captchas.</p>
+            <p>Implemented complete machine learning pipeline for developing an OCR system to decode captchas.</p>
           	
             <div style="height: 40px; margin-top: 15px;">
 	    	       	<div class="tool_images" style="padding-top: 10px; border: none;">
@@ -394,6 +409,53 @@
 	            	<div class="tool_images" style="padding-left: 10px; padding-top: 5px">
 		            	<img src="./static/img/pillow.png" width="80px" >
 	            	</div>
+	        </div>
+
+	        <div id="ocr_p" style=" margin-top: 40px;display: none;">
+	            	
+	            	<div class="left-pane">
+	            		<p>Description :</p>
+						<p>Summary:</p>
+						<p>Time:<span style="color: #5d5c5c"> Mar 2017</span></p>
+						<p>Tech stack:</p>
+						<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" target="_blank">View on Github</a>
+						</div>
+						<div style="width: 20%; margin-top: 20px"><a id="deploy_link" class="ghost-button-border-color" href="#" target="_blank">View blog</a>
+						</div>
+	            	</div>
+
+	            	<a href="#">
+	            	<div class="right-pane" >
+	            		<p>The task was to train machine learning models from a given sample of Captcha images so as to decode and identify characters from similar test Captchas. Images similar to following pattern were used for this task:</p>
+
+	            		<div style="display: inline-block; "><img src="./static/img/captcha1.png" height="150px"></div>
+
+	            		<p>The original image was RGB, so the first task was to convert captcha images into Greyscale so as to make image processing task easier.</p>
+
+	            		<div style="display: inline-block; "><img src="./static/img/captcha2.png" height="125px"></div>
+
+	            		<p>Next step was to identify ROI (Region Of Interest). The captcha image consisted of unwanted white space which was to be removed so as to focus only on the required region and apply image processing steps with more ease. The bounded region was then cropped out.</p>
+
+	            		<div style="float: left; width: 50%;padding-left: 110px "><img src="./static/img/captcha3.png" height="90px"></div>
+	            		<div style="float: left; width: 50%; padding-left: 60px; padding-top: 20px; height: 90px"><img src="./static/img/captcha4.png" height="50px"></div><br>
+
+	            		<p>Having got the cropped image, the individual characters needed to be cropped out, the most challenging part of the project. For first iteration, a simple algorithm was used to separate the characters as shown below </p>
+
+	            		<div style="display: block; margin: 0 auto ; text-align: center;"><img src="./static/img/captcha5.png" height="90px"></div>
+
+	            		<p>The cropped image was segmented along the white lines as shown above to extract the individual characters as shown below</p>
+
+	            		<div style="display: block; margin: 0 auto ; text-align: center;"><img src="./static/img/captcha6.png" height="90px"></div>
+
+	            		<p>Each character obtained is going to be a data point in the final training dataset. Therefore the next step was to extract features from these training images. Following features were extracted from dataset<br>
+	            		1.Width 2.Height 3.Aspect ratio 4.Vertical symmetry 5.Horizontal symmetry 6.X Histogram 7.Y Histogram 8.White pixels 9.Black pixels<br> The final dataset consisted of 141 datapoints (datapoint = each extracted character) where each of them consisted of 57 features and a character-to-numeric mapped label.  </p>
+
+	            		<p>Having the </p>
+
+
+	            	</div>
+	            	</a>
+
 	            </div>
 
           	</div>
@@ -414,11 +476,11 @@
         <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
           <div class="arrowpart"></div>
           <a id="deco" href="#">
-          <div id="texlens" class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+          <div id="texlens" class="exCon">
             
             <h4>Texlens</h4>
             <h5>Text Summarizer</h5>
-            <p id="texlens_p" >• Developed Graph based Extractive Summarization tool based on the Eigenvector centrality in graph representation of sentences <br>• Feature matrix using Tf-Isf values was used to create Adjacency matrix with Inter-sentence cosine distance as the similarity metric</p>
+            <p>• Developed Graph based Extractive Summarization tool based on the Eigenvector centrality in graph representation of sentences <br>• Feature matrix using Tf-Isf values was used to create Adjacency matrix with Inter-sentence cosine distance as the similarity metric</p>
           	
             <div style="height: 40px; margin-top: 15px;">
 	    	       	<div class="tool_images" style="padding-top: 10px; border: none;">
@@ -436,6 +498,25 @@
 	            	<div class="tool_images" style="padding-left: 10px; padding-top: 5px">
 		            	<img src="./static/img/aws.jpg" width="100px" >
 	            	</div>
+	            </div>
+
+	            <div id="texlens_p" style=" margin-top: 40px;display: none;">
+	            	
+	            	<div class="left-pane">
+	            		<p>Description :</p>
+						<p>Summary:</p>
+						<p>Time:</p>
+						<p>Tech stack:</p>
+						<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" " target="_blank">View on Github</a>
+						</div>
+	            	</div>
+
+
+	            	<div class="right-pane" >
+	            		<p>Hi lknf</p>
+	            		<p>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	            	</div>
+
 	            </div>
 
           	</div>
@@ -725,27 +806,27 @@
 			ga('send', 'pageview');
 		</script>
 
-		<!-- <script> 
-		    $(function(){
-		      $("#chatbot_p .right-pane").load("chatbot.html"); 
-		    });
-	    </script>  -->
+		<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-93471052-1', 'auto');
+			  ga('send', 'pageview');
+
+		</script>
+
+		<!-- ************* CHATBOT  **********-->
 
 		<script>
-
-
-			$("#texlens").click(function(e) {
-				e.preventDefault();
-			     $('#texlens_p').slideToggle('fast');
-			});
 
 			$("#chatbot").click(function(e) {
 				e.preventDefault();
 				if(e.target.id == "github_link" || e.target.id == "deploy_link")
           		return;
-	     	    $('#chatbot_p').slideToggle('fast');
+	     	    $('#chatbot_p').slideToggle('slow');
 			});
-
 
 			$("#chatbot_p #github_link").click(function(){
 				window.open('https://github.com/harshit158/GES-Hackathon-2017','_blank');
@@ -756,6 +837,50 @@
 			});
 
 		</script>
+		
+		<!-- ************* OCR ************-->
+
+		<script>
+			$("#ocr").click(function(e) {
+				e.preventDefault();
+				if(e.target.id == "github_link" || e.target.id == "deploy_link")
+          		return;
+	     	    $('#ocr_p').slideToggle('slow');
+			});
+
+			$("#ocr_p #github_link").click(function(){
+				window.open('https://github.com/harshit158/OCR-pipeline','_blank');
+			});
+
+			$("#ocr_p #deploy_link").click(function(){
+				window.open('https://medium.com/@harshit158/captchas-into-bits-and-pieces-af9fdf3af4a5#.8cbnn26uo','_blank');
+			});
+		</script>
+
+		<!-- ************* TEXLENS ************-->
+
+		<script>
+			$("#texlens").click(function(e) {
+				e.preventDefault();
+				if(e.target.id == "github_link" || e.target.id == "deploy_link")
+          		return;
+	     	    $('#texlens_p').slideToggle('slow');
+			});
+
+			$("#texlens_p #github_link").click(function(){
+				window.open('https://github.com/harshit158/TexLens','_blank');
+			});
+
+		</script>
+
+		<script type>
+			$("#chatbot, #ocr, #texlens").hover(function(){
+				$(this).toggleClass('classWithShadow');
+			});
+		</script>
+
+
+		<!-- ***************************** -->
 
 	
 </body></html>

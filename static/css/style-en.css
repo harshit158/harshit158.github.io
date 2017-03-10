@@ -485,6 +485,7 @@ input.error, textarea.error {
 	padding-left: 30px; 
 	padding-right: 30px;
 	margin-bottom: 30px;
+	text-align: justify;
 }
 
 .tool_images{
@@ -530,7 +531,7 @@ input.error, textarea.error {
 
 
 .exCon p{
-	color:#84868d;
+	color:#5d5c5c;
 	line-height:21px;
 }
 
@@ -667,6 +668,11 @@ h4{
 /* End hide from IE5/Mac */
 
 
+.classWithShadow{
+   -moz-box-shadow: 3px 3px 4px #a5a5a5; 
+   -webkit-box-shadow: 3px 3px 4px #a5a5a5; 
+   box-shadow: 3px 3px 10px #828282; 
+}
 
 
 /* B. Media Queries */
