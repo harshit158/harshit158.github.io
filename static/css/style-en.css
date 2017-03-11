@@ -561,7 +561,7 @@ input.error, textarea.error {
 
 .workDetails .rightArea{
 	border-left: solid 1px #eaeaea;
-	padding-bottom:47px;
+	padding-bottom:25px;
 }
 .workDetails:last-child .rightArea{
 	padding-bottom:0px;
