@@ -41,14 +41,13 @@ a img {
   bottom:0;
   right:0;
   background:rgba(255,255,255,1);
-  transition: 1s 0.4s;
 }
 
 #loaderGif{
   position:fixed;
   z-index:99999;
-  top:35%;
-  left:45%;
+  top:43%;
+  left:48%;
   bottom:0;
   right:0;
   background:rgba(255,255,255,1);
