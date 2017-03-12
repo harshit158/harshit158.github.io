@@ -448,9 +448,9 @@
 	            	<div class="right-pane" >
 	            		<p>The task was to train machine learning models from a given sample of Captcha images so as to decode and identify characters from similar test Captchas. Images similar to following pattern were used for this task:</p>
 
-	            		<div style="display: inline-block; "><img src="./static/img/captcha1.png" height="150px"></div>
+	            		<div style="display: inline-block;"><img style="border: 1px solid #999999;margin-left: 220px" src="./static/img/giffy.gif" height="80px"></div>
 
-	            		<p>The original image was RGB, so the first task was to convert captcha images into Greyscale so as to make image processing task easier.</p>
+	            		<p><br>The original image was RGB, so the first task was to convert captcha images into Greyscale so as to make image processing task easier.</p>
 
 	            		<div style="display: inline-block; "><img src="./static/img/captcha2.png" height="125px"></div>
 
@@ -822,8 +822,6 @@
 			$(document).ready(function() {
 			$('ul#filter a').click(function(e) {
 				$('#portfolio .workDetails').addClass('hidden');
-				
-
 				e.preventDefault();
 				// $(this).css('outline','none');
 				$('ul#filter .current').removeClass('current');
