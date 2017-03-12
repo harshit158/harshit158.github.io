@@ -46,6 +46,9 @@
 		
 	<style type="text/css"></style></head>
 	<body class="">
+		<div id="overlay">
+		     <img id="loaderGif" src="./static/img/loader.gif" alt="Loading" />
+		</div>
 		
 		<section id="intro" class="fx-backstretch">
 				
@@ -814,8 +817,17 @@
 		<script src="./static/js/ladda.min.js.download" type="text/javascript"></script>
 		<script src="./static/js/form.js.download" type="text/javascript"></script>
 
+		<script>
+			$(document).ready(function(){
+			   // PAGE IS FULLY LOADED  
+			   // FADE OUT YOUR OVERLAYING DIV
+			   $('#overlay').fadeOut('slow');
+			});
+		</script>
 		
 		<!-- *************** Projects filter ********** -->
+
+
 		<script>
 
 

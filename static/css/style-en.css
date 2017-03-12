@@ -33,7 +33,27 @@ a img {
 	border: 0;
 }
 
+#overlay{
+  position:fixed;
+  z-index:9999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(255,255,255,1);
+  transition: 1s 0.4s;
+}
 
+#loaderGif{
+  position:fixed;
+  z-index:99999;
+  top:35%;
+  left:45%;
+  bottom:0;
+  right:0;
+  background:rgba(255,255,255,1);
+  transition: 1s 0.4s;
+}
 /* 1.1 Layout add-ons */
 
 .bullet { padding-left: 5px; padding-right: 5px; }
