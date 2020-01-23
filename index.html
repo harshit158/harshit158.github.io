@@ -634,6 +634,9 @@
 		
 <!-- Blogs -->
 
+<!-- <section id="blogs" class="section">
+</section> -->
+
 <section id="blogs" class="section"> <!-- style="margin-bottom: 90px; text-align: center;"> -->
 	<!-- <div class="container"> -->
 		<div class="row">
@@ -642,21 +645,10 @@
 			</div>
 		</div>
 
-		<div id="fm-medium-embed" class="fm-post-wrapper fm-post-title fm-post-sub-title fm-medium-profile"></div>
+<div id="medium-widget"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@harshit158","postsPerLine":4,"limit":4,"picture":"big","fields":["description","author","publishAt"],"ratio":"landscape"}})</script>
 
-			<script src="//data.feedmirror.com/embed.js"></script>
-			<script>
-			  var fmSettings = {
-			    feedURL: 'https://data.feedmirror.com/-LzINAjMkP8BNvH146eC.json',
-			    integration: 'medium-embed',
-			    linkOutText: 'Continue reading ..',
-			    linkToMediumProfileText: 'Subscribe on Medium',
-			    postsCount: 3,
-			    element: 'fm-medium-embed'
-			  };
-			  feedmirror.initialize(fmSettings);
-			</script>
-	<!-- </div> -->
 </section>
 
 <!-- ********************************************************************************* -->
