@@ -94,16 +94,6 @@ a {
   display: block;
 }
 
-.fm-medium-profile a{
-  display: inline-block;
-  background: #fff;
-  padding: 15px;
-  border-radius: 3px;
-  border: 2px solid #4285f4;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.15);
-  
-}
-
 /*---------------------------------------------------------------------------------*/
 
 
