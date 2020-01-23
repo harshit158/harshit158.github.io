@@ -314,319 +314,319 @@
 
 <!-- PORTFOLIO -->
 
-<section class="section-alt" id="portfolio">
-    <div class="container">
-    <div class="row">
-		<div class="col-full">
-			<h2 class="section-title">Projects</h2>
+	<section class="section-alt" id="portfolio">
+	    <div class="container">
+	    <div class="row">
+			<div class="col-full">
+				<h2 class="section-title">Projects</h2>
+			</div>
+			<div style="margin: 0 auto; height: 40px; text-align: center;">
+			<ul id="filter">
+				  <li class="current"><a href="#">All</a></li>
+				  <li><a href="#">Machine Learning</a></li>
+				  <li><a href="#">Data Science</a></li>
+				  <li><a href="#">Web/Programming</a></li>
+			</ul>
+			</div>
 		</div>
-		<div style="margin: 0 auto; height: 40px; text-align: center;">
-		<ul id="filter">
-			  <li class="current"><a href="#">All</a></li>
-			  <li><a href="#">Machine Learning</a></li>
-			  <li><a href="#">Data Science</a></li>
-			  <li><a href="#">Web/Programming</a></li>
-		</ul>
-		</div>
-	</div>
-    
+	    
 
-	<hr width="10px" size="10px">
+		<hr width="10px" size="10px">
 
-	<!--************************************************************* -->
+		<!--************************************************************* -->
 
-	<div class="row workDetails web/programming" style="margin-top: 30px">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-          <!-- <div class="workYear">Nov, 2015<br>
-            Present</div> -->
-          <div ><img class ='img-circle' alt="This is me!"  src="./static/img/sparreo.png"></div>
-        </div>
-        <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
-          <div class="arrowpart"></div>
-          <a id="deco" href="#">
-          <div id="chatbot" class="exCon">
-            
-            <h4>Sparreo</h4>
-            <h5>Messenger Chat Bot <span style="font-size: 12px">( Winner , GES Hackathon - IIT Kharagpur )</span></h5>
-            <p >A Javascript based Messenger chat bot that allows owners of lost items to connect with their finders through data driven matching algorithms. Currently used by around 10,000 students of IIT Kharagpur.</p>
-            
-            	<div style="height: 40px; margin-top: 10px">
-	    	       	<div class="tool_images" style="padding-right: 5px; margin-top: 0px; border: none;">
-		            	<img src="./static/img/nodejs.png" width="80px" >
-	            	</div>
-
-	            	<div class="tool_images">
-		            	<img src="./static/img/socketio.png" width="110px" >
-	            	</div>
-
-	            	<div class="tool_images">
-		            	<img src="./static/img/javascript.png" width="110px" >
-	            	</div>
-
-					<div back class="tool_images" style="padding-right: 10px; padding-left: 10px">
-		            	<img style="margin-top: 10px" src="./static/img/firebase.png" width="90px" >
-	            	</div>
-
-	            	<div class="tool_images" style="padding-left: 10px">
-		            	<img style="margin-top: 10px" src="./static/img/heroku.png" width="80px" >
-	            	</div>
-	            </div>
-
-	            <div id="chatbot_p" style=" margin-top: 40px;display: none;">
-	            	
-	            	<div class="left-pane">
-	            		<p>Description :</p>
-						<p>Summary:</p>
-						<p>Time: <span style="color: #5d5c5c;">  Feb - Mar 2017</span></p>
-						<p>Tech stack:</p>
-						<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" " target="_blank">View on Github</a>
-						</div>
-						<div style="width: 20%; margin-top: 20px"><a id="deploy_link" class="ghost-button-border-color" href="#" " target="_blank">Deployment Link</a>
-						</div>
-	            	</div>
-
-					<a href="#">
-	            	<div class="right-pane" >
-	            		<p>There are three main parts of the project</p>
-	            		<p><B>1. Chat Bot (client side)</B><br>
-	            		The chatbot is a javascript based application developed and hosted on Gupshup platform and published on Messenger.
-	            		The messages are parsed using Message handlers provided by Gupshup platform and processed primarily by chatbot itself but mainly by the NodeJs server running in the backend. Various API endpoints are developed in NodeJs which provides a way for the chatbot to process complex data as well as interact with the database.
-	            		</p><br>
-
-	            		<div style="display: inline-block; width: 33%"><img src="./static/img/sparreo1.png" height="300px"></div>
-	            		<div style="display: inline-block;width: 33%; "><img src="./static/img/sparreo2.png" height="300px"></div>
-	            		<div style="float:right; display: inline-block;width: 33%"><img src="./static/img/sparreo3.png" height="300px"></div>
-
-	            		<p><br><B>2. NodeJs (backend)</B><br>
-	            		This does the heavy-lifting for the chatbot by providing necessary API endpoints. Acting as a medium between the chatbot and the database, it also uses third-party geo-mapping and Google Map APIs to process the acquired data from user and accordingly store on the database.The NodeJs server is hosted on Heroku.
-	            		</p>
-
-	            		<p><br><B>3. Firebase (database)</B><br>
-	            		Owing to its flexibility of use and more efficient data processing , Firebase was chosen as the database for the project. Storing data in terms of nodes (usp of Firebase), made it easier to store as well as fetch data for each of the submitted lost  or found reports by the users.<br>
-	            		
-	            		</p>
-	            		
-	            	</div></a>
-
-	            </div>
-
-            	
-          	</div>
-          </a>
-          
-        </div>
-      </div>
-
-      <!--************************************************************* -->
-
-      <div class="row workDetails machine-learning data-science" style="margin-top: 30px">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-        <div><img style="border: 2px solid #b9a602" width="150%" height="170px" class ='img-circle' alt="This is me!"  src="./static/img/ocr.png"></div>
-        </div>
-        <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
-          <div class="arrowpart"></div>
-          <a id="deco" href="#">
-          <div id="ocr" class="exCon">
-            
-            <h4>Captcha decoder</h4>
-            <h5>OCR system pipeline</h5>
-            <p>Implemented complete machine learning pipeline for developing an OCR system to decode captchas.</p>
-          	
-            <div style="height: 40px; margin-top: 15px;">
-	    	       	<div class="tool_images" style="padding-top: 10px; border: none;">
-		            	<img src="./static/img/python.png" width="100px" >
-	            	</div>
-
-	            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px;padding-top: 10px;">
-		            	<img src="./static/img/ipython.jpg" width="60px" >
-	            	</div>
-
-	            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px">
-		            	<img src="./static/img/sklearn.png" width="60px" >
-	            	</div>
-
-	            	<div class="tool_images" style="padding-left: 10px; padding-top: 5px">
-		            	<img src="./static/img/pillow.png" width="80px" >
-	            	</div>
+		<div class="row workDetails web/programming" style="margin-top: 30px">
+	        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+	          <!-- <div class="workYear">Nov, 2015<br>
+	            Present</div> -->
+	          <div ><img class ='img-circle' alt="This is me!"  src="./static/img/sparreo.png"></div>
 	        </div>
+	        <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
+	          <div class="arrowpart"></div>
+	          <a id="deco" href="#">
+	          <div id="chatbot" class="exCon">
+	            
+	            <h4>Sparreo</h4>
+	            <h5>Messenger Chat Bot <span style="font-size: 12px">( Winner , GES Hackathon - IIT Kharagpur )</span></h5>
+	            <p >A Javascript based Messenger chat bot that allows owners of lost items to connect with their finders through data driven matching algorithms. Currently used by around 10,000 students of IIT Kharagpur.</p>
+	            
+	            	<div style="height: 40px; margin-top: 10px">
+		    	       	<div class="tool_images" style="padding-right: 5px; margin-top: 0px; border: none;">
+			            	<img src="./static/img/nodejs.png" width="80px" >
+		            	</div>
 
-	        <div id="ocr_p" style=" margin-top: 40px;display: none;">
+		            	<div class="tool_images">
+			            	<img src="./static/img/socketio.png" width="110px" >
+		            	</div>
+
+		            	<div class="tool_images">
+			            	<img src="./static/img/javascript.png" width="110px" >
+		            	</div>
+
+						<div back class="tool_images" style="padding-right: 10px; padding-left: 10px">
+			            	<img style="margin-top: 10px" src="./static/img/firebase.png" width="90px" >
+		            	</div>
+
+		            	<div class="tool_images" style="padding-left: 10px">
+			            	<img style="margin-top: 10px" src="./static/img/heroku.png" width="80px" >
+		            	</div>
+		            </div>
+
+		            <div id="chatbot_p" style=" margin-top: 40px;display: none;">
+		            	
+		            	<div class="left-pane">
+		            		<p>Description :</p>
+							<p>Summary:</p>
+							<p>Time: <span style="color: #5d5c5c;">  Feb - Mar 2017</span></p>
+							<p>Tech stack:</p>
+							<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" " target="_blank">View on Github</a>
+							</div>
+							<div style="width: 20%; margin-top: 20px"><a id="deploy_link" class="ghost-button-border-color" href="#" " target="_blank">Deployment Link</a>
+							</div>
+		            	</div>
+
+						<a href="#">
+		            	<div class="right-pane" >
+		            		<p>There are three main parts of the project</p>
+		            		<p><B>1. Chat Bot (client side)</B><br>
+		            		The chatbot is a javascript based application developed and hosted on Gupshup platform and published on Messenger.
+		            		The messages are parsed using Message handlers provided by Gupshup platform and processed primarily by chatbot itself but mainly by the NodeJs server running in the backend. Various API endpoints are developed in NodeJs which provides a way for the chatbot to process complex data as well as interact with the database.
+		            		</p><br>
+
+		            		<div style="display: inline-block; width: 33%"><img src="./static/img/sparreo1.png" height="300px"></div>
+		            		<div style="display: inline-block;width: 33%; "><img src="./static/img/sparreo2.png" height="300px"></div>
+		            		<div style="float:right; display: inline-block;width: 33%"><img src="./static/img/sparreo3.png" height="300px"></div>
+
+		            		<p><br><B>2. NodeJs (backend)</B><br>
+		            		This does the heavy-lifting for the chatbot by providing necessary API endpoints. Acting as a medium between the chatbot and the database, it also uses third-party geo-mapping and Google Map APIs to process the acquired data from user and accordingly store on the database.The NodeJs server is hosted on Heroku.
+		            		</p>
+
+		            		<p><br><B>3. Firebase (database)</B><br>
+		            		Owing to its flexibility of use and more efficient data processing , Firebase was chosen as the database for the project. Storing data in terms of nodes (usp of Firebase), made it easier to store as well as fetch data for each of the submitted lost  or found reports by the users.<br>
+		            		
+		            		</p>
+		            		
+		            	</div></a>
+
+		            </div>
+
 	            	
-	            	<div class="left-pane">
-	            		<p>Description :</p>
-						<p>Summary:</p>
-						<p>Time:<span style="color: #5d5c5c"> Mar 2017</span></p>
-						<p>Tech stack:</p>
-						<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" target="_blank">View on Github</a>
-						</div>
-						<div style="width: 20%; margin-top: 20px"><a id="deploy_link" class="ghost-button-border-color" href="#" target="_blank">View blog</a>
-						</div>
-	            	</div>
+	          	</div>
+	          </a>
+	          
+	        </div>
+	      </div>
 
-	            	<a href="#">
-	            	<div class="right-pane" >
-	            		<p>The task was to train machine learning models from a given sample of Captcha images so as to decode and identify characters from similar test Captchas. Images similar to following pattern were used for this task:</p>
+	      <!--************************************************************* -->
 
-	            		<div style="display: inline-block;"><img style="border: 1px solid #999999;margin-left: 220px" src="./static/img/captcha1.gif" height="80px"></div>
+	      <div class="row workDetails machine-learning data-science" style="margin-top: 30px">
+	        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+	        <div><img style="border: 2px solid #b9a602" width="150%" height="170px" class ='img-circle' alt="This is me!"  src="./static/img/ocr.png"></div>
+	        </div>
+	        <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
+	          <div class="arrowpart"></div>
+	          <a id="deco" href="#">
+	          <div id="ocr" class="exCon">
+	            
+	            <h4>Captcha decoder</h4>
+	            <h5>OCR system pipeline</h5>
+	            <p>Implemented complete machine learning pipeline for developing an OCR system to decode captchas.</p>
+	          	
+	            <div style="height: 40px; margin-top: 15px;">
+		    	       	<div class="tool_images" style="padding-top: 10px; border: none;">
+			            	<img src="./static/img/python.png" width="100px" >
+		            	</div>
 
-	            		<p><br>The original image was RGB, so the first task was to convert captcha images into Greyscale so as to make image processing task easier.</p>
+		            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px;padding-top: 10px;">
+			            	<img src="./static/img/ipython.jpg" width="60px" >
+		            	</div>
 
-	            		<div style="display: inline-block; "><img src="./static/img/captcha2.png" height="125px"></div>
+		            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px">
+			            	<img src="./static/img/sklearn.png" width="60px" >
+		            	</div>
 
-	            		<p>Next step was to identify ROI (Region Of Interest). The captcha image consisted of unwanted white space which was to be removed so as to focus only on the required region and apply image processing steps with more ease. The bounded region was then cropped out.</p>
+		            	<div class="tool_images" style="padding-left: 10px; padding-top: 5px">
+			            	<img src="./static/img/pillow.png" width="80px" >
+		            	</div>
+		        </div>
 
-	            		<div style="float: left; width: 50%;padding-left: 110px "><img src="./static/img/captcha3.png" height="90px"></div>
-	            		<div style="float: left; width: 50%; padding-left: 60px; padding-top: 20px; height: 90px"><img src="./static/img/captcha4.png" height="50px"></div><br>
+		        <div id="ocr_p" style=" margin-top: 40px;display: none;">
+		            	
+		            	<div class="left-pane">
+		            		<p>Description :</p>
+							<p>Summary:</p>
+							<p>Time:<span style="color: #5d5c5c"> Mar 2017</span></p>
+							<p>Tech stack:</p>
+							<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" target="_blank">View on Github</a>
+							</div>
+							<div style="width: 20%; margin-top: 20px"><a id="deploy_link" class="ghost-button-border-color" href="#" target="_blank">View blog</a>
+							</div>
+		            	</div>
 
-	            		<p>Having got the cropped image, the individual characters needed to be cropped out, the most challenging part of the project. For first iteration, a simple algorithm was used to separate the characters as shown below </p>
+		            	<a href="#">
+		            	<div class="right-pane" >
+		            		<p>The task was to train machine learning models from a given sample of Captcha images so as to decode and identify characters from similar test Captchas. Images similar to following pattern were used for this task:</p>
 
-	            		<div style="display: block; margin: 0 auto ; text-align: center;"><img src="./static/img/captcha5.png" height="90px"></div>
+		            		<div style="display: inline-block;"><img style="border: 1px solid #999999;margin-left: 220px" src="./static/img/captcha1.gif" height="80px"></div>
 
-	            		<p>The cropped image was segmented along the white lines as shown above to extract the individual characters as shown below</p>
+		            		<p><br>The original image was RGB, so the first task was to convert captcha images into Greyscale so as to make image processing task easier.</p>
 
-	            		<div style="display: block; margin: 0 auto ; text-align: center;"><img src="./static/img/captcha6.jpg" height="90px"></div>
+		            		<div style="display: inline-block; "><img src="./static/img/captcha2.png" height="125px"></div>
 
-	            		<p>Each character obtained is going to be a data point in the final training dataset. Therefore the next step was to extract features from these training images. Following features were extracted from dataset :
-	            		1.Width 2.Height 3.Aspect ratio 4.Vertical symmetry 5.Horizontal symmetry 6.X Histogram 7.Y Histogram 8.White pixels 9.Black pixels
+		            		<p>Next step was to identify ROI (Region Of Interest). The captcha image consisted of unwanted white space which was to be removed so as to focus only on the required region and apply image processing steps with more ease. The bounded region was then cropped out.</p>
 
-	            		<p>The final dataset consisted of 141 datapoints (datapoint = each extracted character) where each of them consisted of 57 features and a character-to-numeric mapped label. Once the data was ready, SVM and Random Forest classifiers from Sklearn were trained and used to predict the test image</p> 
+		            		<div style="float: left; width: 50%;padding-left: 110px "><img src="./static/img/captcha3.png" height="90px"></div>
+		            		<div style="float: left; width: 50%; padding-left: 60px; padding-top: 20px; height: 90px"><img src="./static/img/captcha4.png" height="50px"></div><br>
 
+		            		<p>Having got the cropped image, the individual characters needed to be cropped out, the most challenging part of the project. For first iteration, a simple algorithm was used to separate the characters as shown below </p>
 
-	            	</div>
-	            	</a>
+		            		<div style="display: block; margin: 0 auto ; text-align: center;"><img src="./static/img/captcha5.png" height="90px"></div>
 
-	            </div>
+		            		<p>The cropped image was segmented along the white lines as shown above to extract the individual characters as shown below</p>
 
-          	</div>
-          </a>
-          
-        </div>
-      </div>
+		            		<div style="display: block; margin: 0 auto ; text-align: center;"><img src="./static/img/captcha6.jpg" height="90px"></div>
 
+		            		<p>Each character obtained is going to be a data point in the final training dataset. Therefore the next step was to extract features from these training images. Following features were extracted from dataset :
+		            		1.Width 2.Height 3.Aspect ratio 4.Vertical symmetry 5.Horizontal symmetry 6.X Histogram 7.Y Histogram 8.White pixels 9.Black pixels
 
-      <!--************************************************************* -->
-
-      <div class="row workDetails web/programming machine-learning" style="margin-top: 30px">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-          <!-- <div class="workYear">Nov, 2015<br>
-            Present</div> -->
-            <div><img style="border: 2px solid #858585; width="150%" height="170px" class ='img-circle' alt="This is me!"  src="./static/img/texlens.jpg"></div>
-        </div>
-        <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
-          <div class="arrowpart"></div>
-          <a id="deco" href="#">
-          <div id="texlens" class="exCon">
-            
-            <h4>Texlens</h4>
-            <h5>Text Summarizer</h5>
-            <p>• Developed Graph based Extractive Summarization tool based on the Eigenvector centrality in graph representation of sentences <br>• Feature matrix using Tf-Isf values was used to create Adjacency matrix with Inter-sentence cosine distance as the similarity metric</p>
-          	
-            <div style="height: 40px; margin-top: 15px;">
-	    	       	<div class="tool_images" style="padding-top: 10px; border: none;">
-		            	<img src="./static/img/python.png" width="100px" >
-	            	</div>
-
-	            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px;padding-top: 10px;">
-		            	<img src="./static/img/flask.png" width="75px" >
-	            	</div>
-
-	            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px">
-		            	<img src="./static/img/sklearn.png" width="60px" >
-	            	</div>
-
-	            	<div class="tool_images" style="padding-left: 10px; padding-top: 5px">
-		            	<img src="./static/img/aws.jpg" width="100px" >
-	            	</div>
-	            </div>
-
-	            <div id="texlens_p" style=" margin-top: 40px;display: none;">
-	            	
-	            	<div class="left-pane">
-	            		<p>Description :</p>
-						<p>Summary:</p>
-						<p>Time:</p>
-						<p>Tech stack:</p>
-						<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" " target="_blank">View on Github</a>
-						</div>
-	            	</div>
+		            		<p>The final dataset consisted of 141 datapoints (datapoint = each extracted character) where each of them consisted of 57 features and a character-to-numeric mapped label. Once the data was ready, SVM and Random Forest classifiers from Sklearn were trained and used to predict the test image</p> 
 
 
-	            	<div class="right-pane" >
-	            		<p>Hi lknf</p>
-	            		<p>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	            	</div>
+		            	</div>
+		            	</a>
 
-	            </div>
+		            </div>
 
-          	</div>
-          </a>
-          
-        </div>
-      </div>
-
-      <!--************************************************************* -->
-
-      <div class="row workDetails machine-learning">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-          <div class="workYear">Aug, 2015<br>
-            Oct, 2015</div>
-        </div>
-        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-          <div class="arrowpart"></div>
-          <a href="https://github.com/harshit158" target="_blank">
-          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
-            <h4>Reverse Image Search Engine</h4>
-            <h5>Python | OpenCV</h5>
-            <p>• Developed Content Based Image Retrieval (CBIR) system by using pixel intensities as the primary feature to quantify image content<br>• Histograms in HSV colour space(with 8 bins/channel) were developed in OpenCV to generate Feature vectors of training Images<br>• Feature vectors were mapped to 8*8*8=512 dimensional space; Implemented Chi-squared similarity as the final ranking algorithm</p>
-          </div>
-          </a>
-        </div>
-      </div>
+	          	</div>
+	          </a>
+	          
+	        </div>
+	      </div>
 
 
-      <!--************************************************************* -->
+	      <!--************************************************************* -->
+
+	      <div class="row workDetails web/programming machine-learning" style="margin-top: 30px">
+	        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+	          <!-- <div class="workYear">Nov, 2015<br>
+	            Present</div> -->
+	            <div><img style="border: 2px solid #858585; width="150%" height="170px" class ='img-circle' alt="This is me!"  src="./static/img/texlens.jpg"></div>
+	        </div>
+	        <div  class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea" style="text-align: center;">
+	          <div class="arrowpart"></div>
+	          <a id="deco" href="#">
+	          <div id="texlens" class="exCon">
+	            
+	            <h4>Texlens</h4>
+	            <h5>Text Summarizer</h5>
+	            <p>• Developed Graph based Extractive Summarization tool based on the Eigenvector centrality in graph representation of sentences <br>• Feature matrix using Tf-Isf values was used to create Adjacency matrix with Inter-sentence cosine distance as the similarity metric</p>
+	          	
+	            <div style="height: 40px; margin-top: 15px;">
+		    	       	<div class="tool_images" style="padding-top: 10px; border: none;">
+			            	<img src="./static/img/python.png" width="100px" >
+		            	</div>
+
+		            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px;padding-top: 10px;">
+			            	<img src="./static/img/flask.png" width="75px" >
+		            	</div>
+
+		            	<div class="tool_images" style="padding-left: 10px; margin-right: 10px">
+			            	<img src="./static/img/sklearn.png" width="60px" >
+		            	</div>
+
+		            	<div class="tool_images" style="padding-left: 10px; padding-top: 5px">
+			            	<img src="./static/img/aws.jpg" width="100px" >
+		            	</div>
+		            </div>
+
+		            <div id="texlens_p" style=" margin-top: 40px;display: none;">
+		            	
+		            	<div class="left-pane">
+		            		<p>Description :</p>
+							<p>Summary:</p>
+							<p>Time:</p>
+							<p>Tech stack:</p>
+							<div  style="width: 20%"><a  id="github_link" class="ghost-button-border-color" href="#" " target="_blank">View on Github</a>
+							</div>
+		            	</div>
 
 
-      <div class="row workDetails machine-learning">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-          <div class="workYear">Jan, 2015<br>
-            Jul, 2015</div>
-        </div>
-        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-          <div class="arrowpart"></div>
-          <a href="https://github.com/harshit158" target="_blank">
-          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
-            <h4>Reinforcement based Autonomous navigation</h4>
-            <h5>Python | Keras Deep learning library | AWS</h5>
-            <p>•Implemented Reinforcement based learning technique for teaching a virtual car in a 2D game (developed in PyGame) to avoid collision<br>• Raw sensor data represents each state in the game; The input data decides the obstacle type(0,1,2) based on their pixel values<br>• Predicted Q-values decide the action to be taken followed by reward or punishment as per the new state achieved</p>
-          </div>
-          </a>
-        </div>
-      </div>
+		            	<div class="right-pane" >
+		            		<p>Hi lknf</p>
+		            		<p>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>Github link will be shown here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		            	</div>
+
+		            </div>
+
+	          	</div>
+	          </a>
+	          
+	        </div>
+	      </div>
+
+	      <!--************************************************************* -->
+
+	      <div class="row workDetails machine-learning">
+	        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+	          <div class="workYear">Aug, 2015<br>
+	            Oct, 2015</div>
+	        </div>
+	        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+	          <div class="arrowpart"></div>
+	          <a href="https://github.com/harshit158" target="_blank">
+	          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+	            <h4>Reverse Image Search Engine</h4>
+	            <h5>Python | OpenCV</h5>
+	            <p>• Developed Content Based Image Retrieval (CBIR) system by using pixel intensities as the primary feature to quantify image content<br>• Histograms in HSV colour space(with 8 bins/channel) were developed in OpenCV to generate Feature vectors of training Images<br>• Feature vectors were mapped to 8*8*8=512 dimensional space; Implemented Chi-squared similarity as the final ranking algorithm</p>
+	          </div>
+	          </a>
+	        </div>
+	      </div>
 
 
-      <!--************************************************************* -->
+	      <!--************************************************************* -->
 
 
-      <div class="row workDetails data-science machine-learning">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-          <div class="workYear">Jan, 2013<br>
-            Dec, 2014</div>
-        </div>
-        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-          <div class="arrowpart"></div>
-          <a href="https://github.com/harshit158" target="_blank">
-          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
-            <h4>Mortality Predictor (Competition - Xerox Research Innovation Challenge)</h4>
-            <h5>Pandas | IPython | Sklearn</h5>
-            <p>• Developed a Binary Classification model to predict risk of death in patients admitted to ICU using online ML techniques<br>• Analysed 31(Vitals & Labs) time series variables; Engineered rolling Average, Min, Max, timestamp frequencies as additional features<br>• Implemented stacking techniques to predict the final output with stacking of Random Forest, KNN and Logistic classifiers</p>
-          </div>
-          </a>
-        </div>
-      </div>      
-    </div>
-</div>  
-</section>
+	      <div class="row workDetails machine-learning">
+	        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+	          <div class="workYear">Jan, 2015<br>
+	            Jul, 2015</div>
+	        </div>
+	        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+	          <div class="arrowpart"></div>
+	          <a href="https://github.com/harshit158" target="_blank">
+	          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+	            <h4>Reinforcement based Autonomous navigation</h4>
+	            <h5>Python | Keras Deep learning library | AWS</h5>
+	            <p>•Implemented Reinforcement based learning technique for teaching a virtual car in a 2D game (developed in PyGame) to avoid collision<br>• Raw sensor data represents each state in the game; The input data decides the obstacle type(0,1,2) based on their pixel values<br>• Predicted Q-values decide the action to be taken followed by reward or punishment as per the new state achieved</p>
+	          </div>
+	          </a>
+	        </div>
+	      </div>
+
+
+	      <!--************************************************************* -->
+
+
+	      <div class="row workDetails data-science machine-learning">
+	        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+	          <div class="workYear">Jan, 2013<br>
+	            Dec, 2014</div>
+	        </div>
+	        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+	          <div class="arrowpart"></div>
+	          <a href="https://github.com/harshit158" target="_blank">
+	          <div class="exCon" onmouseover="this.style.background='#eeeeee';" onmouseout="this.style.background='white';">
+	            <h4>Mortality Predictor (Competition - Xerox Research Innovation Challenge)</h4>
+	            <h5>Pandas | IPython | Sklearn</h5>
+	            <p>• Developed a Binary Classification model to predict risk of death in patients admitted to ICU using online ML techniques<br>• Analysed 31(Vitals & Labs) time series variables; Engineered rolling Average, Min, Max, timestamp frequencies as additional features<br>• Implemented stacking techniques to predict the final output with stacking of Random Forest, KNN and Logistic classifiers</p>
+	          </div>
+	          </a>
+	        </div>
+	      </div>      
+	    </div>
+	</div>  
+	</section>
 
 <!-- ********************************************************************************* -->
 
@@ -642,7 +642,7 @@
 			</div>
 		</div>
 
-		<div id="fm-medium-embed" class="fm-post-wrapper fm-post-title fm-post-sub-title fm-medium-profile"></div>
+		<div id="fm-medium-embed" class="fm-post-title fm-post-sub-title fm-medium-profile"></div>
 
 			<script src="//data.feedmirror.com/embed.js"></script>
 			<script>
